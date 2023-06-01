@@ -1,0 +1,182 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #282828;
+}
+.header {
+    width: 395px;
+    margin-top: 35px;
+    background-color: #282828;
+    display: flex;
+    justify-content: center;
+}
+
+.header__img{
+    width: 15em;
+    padding: 20px;
+}
+
+.main{
+    width: 395px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    width: 395px;
+    
+}
+
+.title > img{
+    width: 355px;
+    height: 50px;
+  
+  
+}
+
+.main_img{
+    width: 24rem;
+    padding: 5px;
+    margin: 12px;
+    margin-top: 9px;
+}
+
+input::placeholder {
+    color: #000;
+    text-align: center;
+}
+
+.user{
+    width: 395px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    margin-top: -220px;
+
+}
+
+.user >input{
+    width: 270px;
+    height: 30px;
+    border-radius: 5px;
+    filter: opacity(.5);
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.password>input{
+    width: 270px;
+    height: 30px;
+    border-radius: 5px;
+    filter: opacity(.5);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-btn {
+    width: 200px;
+    margin: 0  auto;
+    filter: opacity(.9);
+    padding: 10px;
+    background-color: #282828;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #787878;
+}
+
+.aside{
+    width: 395px;
+}
+
+
+.nav{
+    margin-top: 80px;
+    width: 395px;
+}
+
+.nav__link{
+    color: #303440;
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+.nav__link--inside{
+   
+    padding-left: 20px;
+    text-align: center;
+    color: #F6F8FA;
+}
+
+.nav__link--inside:hover{
+    background: #F6F8FA;
+}
+
+.list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #282828;
+}
+
+.list__item{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.list__item--click{
+    cursor: pointer;
+}
+
+.list__button{
+    display: flex;
+   
+    gap: 1em;
+    width: 92%;
+    margin: 0 auto;
+}
+
+.list__show{
+    width: 100%;
+    list-style: none;
+    transition: height .4s;
+    height: 0;
+}
+
+.btn{
+    width: 100%;
+    height: 56px;
+    border: none;
+    background-color: #282828;
+}
+
+.btn__img{
+    width: 100%;
+}
+
+p {
+    margin-top: 130px;
+    color: #F6F8FA;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    padding: 15px;
+}

@@ -1,0 +1,317 @@
+/*configuracion basica que debe ir en todas la hojas*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+   /* border-radius: 25px 25px 25px 25px;
+    box-shadow: 0px 0px 14px rgba(0,0,0, .8);*/
+}
+
+body{
+    width: 395px;
+    height: 100%;
+}
+
+.header{
+    width: 395px;
+    background-color:#282828;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainMenu{
+    display: flex;
+    list-style: none;
+   
+}
+
+.mainMenu li a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+    
+
+
+}
+
+.mainMenu li a:hover{
+    background-color: #60606079;
+}
+
+.openMenu{
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.closeMenu , .logo-icons{
+    font-size: 10px;
+    display: none;
+    cursor: pointer;
+}
+
+/* menu de seleccion */
+.mainMenu{
+    height: 100%;
+    position: fixed;
+   
+    right: 0;
+    left: 200px;
+    z-index: 100;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: #282828;
+    transition: top 1s ease;
+    display: none;
+    
+}
+
+.closeMenu{
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.openMenu{
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.header h1{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.logo{
+    width: 300px;
+}
+
+.logo-icons{
+    width: 100px;
+}
+
+.footer{
+    margin: auto;
+    margin-top: 124px;
+    width: 395px;
+    height: 75px;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.footer__img{
+    width: 11em;
+}
+
+.footer_icon{
+    width: 60px;
+    cursor: pointer;
+}
+
+/*hasta aqui llega la configuracion basica*/
+
+.main{
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.general_info{
+    width: 350px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    padding: 35px 0px;
+}
+
+.general_info{
+    border-radius: 15px;
+    box-shadow: 0 0 13px -3px #282828;
+}
+
+.slac_adjuster_et{
+    width: 350px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    padding: 35px 0px;
+    border-radius: 15px;
+    box-shadow: 0 0 13px -3px #282828;
+}
+
+
+.title{
+    text-align: center;
+    margin: -25px auto;
+    margin-bottom: 20px;
+}
+
+.title2{
+    margin-top: 20px;
+    text-align: center;
+    
+    margin-bottom: 20px;
+}
+
+
+.text1{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: italic;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.input{
+    margin-top: 5px;
+    width: 300px;
+    height: 35px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+input {
+    background-color: yellow;
+  }
+
+  
+input:focus, input:valid {
+    background-color: transparent;
+  }
+
+
+.label_mfg{
+    margin-top: 5px;
+    width: 300px;
+    height: 35px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(81, 247, 247);
+    color: #282828;
+}
+
+.btn-enviar{
+    margin-top: 58px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.formulario__btn{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.disabled {
+   
+    pointer-events: none;
+    user-select: none;
+}
+
+.input:disabled, input:disabled {
+    background-color: black;
+}
+
+.btn_img{
+    width: 335px;
+    padding: 18PX;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.input2{
+    margin-top: 5px;
+    margin-left: 0px;
+    width: 220px;
+    height: 35px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+.formulario__btn2{
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.img_btn{
+   position: relative;
+    margin-left: -220px;
+    width: 279PX;
+    z-index: 50;
+}
+
+.slac_adjuster_it{
+    width: 350px;
+    height: 100%;
+    margin-top: 50px;;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4ß0px;
+    padding: 35px 0px;
+    border-radius: 15px;
+    box-shadow: 0 0 13px -3px #282828;
+}
+
+.hand_brake{
+    width: 350px;
+    height: 100%;
+    margin-top: 50px;;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    padding: 35px 0px;
+    border-radius: 15px;
+    box-shadow: 0 0 13px -3px #282828;
+}
+
+
+.input.disabled { /* Añadido .disabled para aplicarlo a los inputs deshabilitados */
+    background-color: black;
+}
