@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,70;0,900;1,100;1,400;1,700;1,900&display=swap" rel="stylesheet">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,70;0,900;1,100;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="footer.js"></script>
     <script src="block.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Menu</title>
 </head>
+
 <body>
     <header class="header">
 
-        <div class="logo"><h1>General Info</h1></div>
+        <div class="logo">
+            <h1>General Info</h1>
+        </div>
         <div class="openMenu"> <i class="fa fa-bars"></i><img src="../assets/Menu_white.svg" alt=""></div>
         <ul class="mainMenu">
             <li><a href="../general_info/general_info.html">General Info</a></li>
@@ -25,7 +31,8 @@
             <li><a href="#">Empty Load</a></li>
             <li><a href="#">Cylinder</a></li>
             <li><a href="#">TMB</a></li>
-            <li><a href="#">Brake Shoe Force Test Data</a></li><li><a href="#">Amsted Rail</a></li>
+            <li><a href="#">Brake Shoe Force Test Data</a></li>
+            <li><a href="#">Amsted Rail</a></li>
             <li><a href="#">MU-Hand Brake</a></li>
             <li><a href="#">MU-TMB</a></li>
             <li><a href="#">MU-Brake Shoe Force Test</a></li>
@@ -33,15 +40,20 @@
             <li><a href="#">Harch Cover</a></li>
             <li><a href="#">Export Data</a></li>
             <div class="closeMenu"><i class="fa fa-times"><img src="../assets/Close.svg" alt=""></div>
-                
+
         </ul>
     </header>
 
-<main class="main">
+    <main class="main">
         <form action="">
+
+            <!-- ..............................General Info............................. -->
+
             <article class="general_info" id="general_info">
 
-                <div class="title"><h1>General Info</h1></div>
+                <div class="title">
+                    <h1>General Info</h1>
+                </div>
 
                 <div class="text1">
                     <label for="insp_date">Insp Date</label>
@@ -50,16 +62,16 @@
                 <div class="text1">
                     <label for="inspected_by">Inspected By</label>
                     <select class="input" id="inspected_by" name="inspected_by" required>
-                    <option value="" disabled selected>Select a Inspector</option>
-                    <option value="Julio T">Julio T</option>
-                    <option value="David F">David F</option>
-                    <option value="Luis A">Luis A</option>
-                    <option value="Joe J">Joe J</option>
-                    <option value="Larry B">Larry B</option>
-                    <option value="Doug C">Doug C</option>
-                    <option value="Keith G">Keith G</option>
-                    <option value="Mike L">Mike L</option>
-                    <option value="Eric T">Eric T</option>  
+                        <option value="" disabled selected>Select a Inspector</option>
+                        <option value="Julio T">Julio T</option>
+                        <option value="David F">David F</option>
+                        <option value="Luis A">Luis A</option>
+                        <option value="Joe J">Joe J</option>
+                        <option value="Larry B">Larry B</option>
+                        <option value="Doug C">Doug C</option>
+                        <option value="Keith G">Keith G</option>
+                        <option value="Mike L">Mike L</option>
+                        <option value="Eric T">Eric T</option>
                     </select>
                 </div>
                 <div class="text1">
@@ -81,60 +93,60 @@
                 <div class="text1">
                     <label for="builder_location">Builder Location</label>
                     <select class="input" id="builder_location" name="builder_location" required>
-                    <option value="" disabled selected>Select a Builder Location</option>
-                    <option value="cherokee">Cherokee</option>
-                    <option value="roanoke">Roanoke</option>
-                    <option value="danville">Danville</option>
-                    <option value="castaños">Castaños</option>
-                    <option value="sabinas">Sabinas</option>
-                    <option value="saginaw">Saginaw</option>
-                    <option value="longview">Longview</option>
-                    <option value="oklahoma C">Oklahoma C</option>
-                    <option value="ft">Ft. Worth</option> 
-                    <option value="cartersville">Cartersville</option> 
-                    <option value="paragould">Paragould</option>
-                    <option value="marmaduke">Marmaduke</option>
-                    <option value="sahagun">Sahagun</option>
-                    <option value="monclova">Monclova</option>
-                    <option value="portland">Portland</option>
-                    <option value="tlaxcala">Tlaxcala</option>
-                    <option value="hamilton">Hamilton</option>
-                    <option value="nash">Nash, Tx</option>
-                    <option value="new">New Castle</option>
-                    <option value="sheldon">Sheldon</option>
-                    <option value="alexandria">Alexandria</option>
-                    <option value="wilmington">Wilmington</option>
-                    <option value="milton">Milton, PA</option>
-                    
+                        <option value="" disabled selected>Select a Builder Location</option>
+                        <option value="cherokee">Cherokee</option>
+                        <option value="roanoke">Roanoke</option>
+                        <option value="danville">Danville</option>
+                        <option value="castaños">Castaños</option>
+                        <option value="sabinas">Sabinas</option>
+                        <option value="saginaw">Saginaw</option>
+                        <option value="longview">Longview</option>
+                        <option value="oklahoma C">Oklahoma C</option>
+                        <option value="ft">Ft. Worth</option>
+                        <option value="cartersville">Cartersville</option>
+                        <option value="paragould">Paragould</option>
+                        <option value="marmaduke">Marmaduke</option>
+                        <option value="sahagun">Sahagun</option>
+                        <option value="monclova">Monclova</option>
+                        <option value="portland">Portland</option>
+                        <option value="tlaxcala">Tlaxcala</option>
+                        <option value="hamilton">Hamilton</option>
+                        <option value="nash">Nash, Tx</option>
+                        <option value="new">New Castle</option>
+                        <option value="sheldon">Sheldon</option>
+                        <option value="alexandria">Alexandria</option>
+                        <option value="wilmington">Wilmington</option>
+                        <option value="milton">Milton, PA</option>
+
                     </select>
                 </div>
                 <div class="text1">
                     <label for="customer">Customer</label>
                     <select class="input" id="customer" name="customer" required>
-                    <option value="" disabled selected>Select a Customer</option>
-                    <option value="bnsf">BSNF</option>
-                    <option value="chicago">Chicago Freight Car</option>
-                    <option value="cit">CIT</option>
-                    <option value="cn">CN</option>
-                    <option value="cp">CP</option>
-                    <option value="csx">CSX</option>
-                    <option value="dow">Dow</option>
-                    <option value="fca">FCA Leasing</option>
-                    <option value="fec">FEC</option>
-                    <option value="ferromex">FerroMex</option>
-                    <option value="furx">FURX</option>  
-                    <option value="gatx">GATX</option>
-                    <option value="gbrx">GBRX</option>
-                    <option value="ge">GE</option>
-                    <option value="kcs">KCS</option>
-                    <option value="mitsui">Mitsui</option>
-                    <option value="ns">NS</option>
-                    <option value="trinity">Trinity</option>
-                    <option value="ttx">TTX</option>
-                    <option value="uprr">UPRR</option>
-                    <option value="utlx">UTLX</option>
-                    <option value="acf">ACF Leasing</option>
-                    <option value="arl">ARL Leasing</option>
+                        <option value="" disabled selected>Select a Customer</option>
+                        <option value="bnsf">BSNF</option>
+                        <option value="chicago">Chicago Freight Car</option>
+                        <option value="cit">CIT</option>
+                        <option value="cn">CN</option>
+                        <option value="cp">CP</option>
+                        <option value="csx">CSX</option>
+                        <option value="dow">Dow</option>
+                        <option value="fca">FCA Leasing</option>
+                        <option value="fec">FEC</option>
+                        <option value="ferromex">FerroMex</option>
+                        <option value="furx">FURX</option>
+                        <option value="gatx">GATX</option>
+                        <option value="gbrx">GBRX</option>
+                        <option value="ge">GE</option>
+                        <option value="kcs">KCS</option>
+                        <option value="mitsui">Mitsui</option>
+                        <option value="ns">NS</option>
+                        <option value="trinity">Trinity</option>
+                        <option value="ttx">TTX</option>
+                        <option value="uprr">UPRR</option>
+                        <option value="utlx">UTLX</option>
+                        <option value="acf">ACF Leasing</option>
+                        <option value="arl">ARL Leasing</option>
                     </select>
                 </div>
 
@@ -180,7 +192,7 @@
                         <option value="pres_tank_side_ladder">Pres. Tank - side ladder</option>
                         <option value="spine_end_hb">Spine - end HB</option>
                         <option value="spine_side_hb">Spine - side HB</option>
-                    
+
                     </select>
                 </div>
                 <div class="text1">
@@ -247,93 +259,96 @@
                 </div>
                 <div class="text1">
                     <label for="car_series_start">Car Series Start#</label>
-                    <input class="input" type="text" id="car_series_start" name="car_series_start" oninput="calcularDiferencia()" required>
+                    <input class="input" type="text" id="car_series_start" name="car_series_start"
+                        oninput="calcularDiferencia()" required>
                 </div>
                 <div class="text1">
                     <label for="car_series_end">Car Series End#</label>
-                    <input class="input" type="text" id="car_series_end" name="car_series_end" oninput="calcularDiferencia()" required>
+                    <input class="input" type="text" id="car_series_end" name="car_series_end"
+                        oninput="calcularDiferencia()" required>
                 </div>
                 <div class="text1">
-                        <label for="resultado">Qty of Cars</label>
-                        <label class="label_mfg" id="resultado">
+                    <label for="resultado">Qty of Cars</label>
+                    <label class="label_mfg" id="resultado">
                 </div>
                 <div class="text1">
                     <label for="lightweight">Lightweight</label>
-                    <input class="input" type="text" id="lightweight" name="lightweight" oninput="calcularSuma()" required>
+                    <input class="input" type="text" id="lightweight" name="lightweight" oninput="calcularSuma()"
+                        required>
                 </div>
                 <div class="text1">
                     <label for="load_limit">Load Limit</label>
-                    <input class="input" type="text" id="load_limit" name="load_limit" oninput="calcularSuma()" required>
+                    <input class="input" type="text" id="load_limit" name="load_limit" oninput="calcularSuma()"
+                        required>
                 </div>
                 <div class="text1">
                     <label for="car_cap">Car Cap (GRL)</label>
                     <label class="label_mfg" id="car_cap"></label>
                 </div>
                 <div class="text1">
-                        <label for="cu_ft">Cu Ft (if aapl)</label>
-                        <input class="input" type="text" id="cu_ft" name="cu_ft" required>
+                    <label for="cu_ft">Cu Ft (if aapl)</label>
+                    <input class="input" type="text" id="cu_ft" name="cu_ft" required>
                 </div>
                 <div class="text1">
-                        <label for="gallons">Gallons (if appl)</label>
-                        <input class="input" type="text" id="gallons" name="gallons" required>
+                    <label for="gallons">Gallons (if appl)</label>
+                    <input class="input" type="text" id="gallons" name="gallons" required>
                 </div>
-                    
-                <div class="text1">
-                        <label for="s-2044">s-2044 Appendix</label>
-                        <label class="label_mfg" id="s-2044"></label>
-                </div>
-       
-            </article>
 
-      
+                <div class="text1">
+                    <label for="s-2044">s-2044 Appendix</label>
+                    <label class="label_mfg" id="s-2044"></label>
+                </div>
+            </article>
 
             <!-- ..............................SLACK ADJUSTER END TRUCK............................. -->
 
             <article action="" class="slac_adjuster_et" id="slac_adjuster_et">
-                <div class="title"><h1>Slack Adjuster End Truck</h1></div>
-                
+                <div class="title">
+                    <h1>Slack Adjuster End Truck</h1>
+                </div>
+
                 <div class="text1">
                     <label for="modelEt">Model</label>
                     <select class="input" id="modelEt" onchange="mostrar();" name="modelEt" required>
-                    <option value="" disabled selected>Select a Model</option>
-                    <option value="">Selecciona una opción</option>
-                    <option value="2000-DJ">2000-DJ</option>
-                    <option value="2000-1-DJ">2000-1-DJ</option>
-                    <option value="7100-21">7100-21</option>
-                    <option value="7100-22">7100-22</option>
-                    <option value="7100-22R">7100-22R</option>
-                    <option value="7100-22RS">7100-22RS</option>
-                    <option value="7100-25">7100-25</option>
-                    <option value="7100-25R">7100-25R</option>
-                    <option value="7100-26">7100-26</option>
-                    <option value="7100-26R">7100-26R</option>
-                    <option value="7100-26RS">7100-26RS</option>
-                    <option value="7100-28">7100-28</option>
-                    <option value="7100-28R">7100-28R</option>
-                    <option value="7100-35">7100-35</option>
-                    <option value="7100-40">7100-40</option>
-                    <option value="IBEX">IBEX</option>
-                    <option value="9100-12">9100-12</option>
-                    <option value="9100-DJ">9100-DJ</option>
-                    <option value="2300-DJ">2300-DJ</option>
-                    <option value="2500-DJ">2500-DJ</option>
-                    <option value="10, 10S">10, 10S</option>
-                    <option value="C-1000-DJ">C-1000-DJ</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="5D">5D</option>
-                    <option value="85A">85A</option>
-                    <option value="KRD-482-E">KRD-482-E</option>
-                    <option value="KRD-482-R">KRD-482-R</option>
-                    <option value="790196">790196</option>
-                    <option value="790240">790240</option>
-                    <option value="DRV 2-101KDJ">DRV 2-101KDJ</option>
-                    <option value="DRV 2-1-USA-DJ">DRV 2-1-USA-DJ</option>
+                        <option value="" disabled selected>Select a Model</option>
+                        <option value="">Selecciona una opción</option>
+                        <option value="2000-DJ">2000-DJ</option>
+                        <option value="2000-1-DJ">2000-1-DJ</option>
+                        <option value="7100-21">7100-21</option>
+                        <option value="7100-22">7100-22</option>
+                        <option value="7100-22R">7100-22R</option>
+                        <option value="7100-22RS">7100-22RS</option>
+                        <option value="7100-25">7100-25</option>
+                        <option value="7100-25R">7100-25R</option>
+                        <option value="7100-26">7100-26</option>
+                        <option value="7100-26R">7100-26R</option>
+                        <option value="7100-26RS">7100-26RS</option>
+                        <option value="7100-28">7100-28</option>
+                        <option value="7100-28R">7100-28R</option>
+                        <option value="7100-35">7100-35</option>
+                        <option value="7100-40">7100-40</option>
+                        <option value="IBEX">IBEX</option>
+                        <option value="9100-12">9100-12</option>
+                        <option value="9100-DJ">9100-DJ</option>
+                        <option value="2300-DJ">2300-DJ</option>
+                        <option value="2500-DJ">2500-DJ</option>
+                        <option value="10, 10S">10, 10S</option>
+                        <option value="C-1000-DJ">C-1000-DJ</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="5D">5D</option>
+                        <option value="85A">85A</option>
+                        <option value="KRD-482-E">KRD-482-E</option>
+                        <option value="KRD-482-R">KRD-482-R</option>
+                        <option value="790196">790196</option>
+                        <option value="790240">790240</option>
+                        <option value="DRV 2-101KDJ">DRV 2-101KDJ</option>
+                        <option value="DRV 2-1-USA-DJ">DRV 2-1-USA-DJ</option>
                     </select>
                 </div>
                 <div class="text1">
                     <label for="slackmfg1">Mfg</label>
-                    <label class="label_mfg"  id="slackmfg1"></label>
+                    <label class="label_mfg" id="slackmfg1"></label>
                 </div>
                 <div class="text1">
                     <label for="car_buiit_date2">Built Date (mm-yy)</label>
@@ -343,24 +358,24 @@
                     <label for="slackGroup1">Mfg</label>
                     <label class="label_mfg" id="slackGroup1"></label>
                 </div>
-                
+
                 <article class="btn_img">
-                   
-                        <img class="formulario__btn2" src="images/img_1G.svg" alt=""> 
-                    
+
+                    <img class="formulario__btn2" src="images/img_1G.svg" alt="">
+
                     <div class="text1">
                         <label for="location">Location</label>
                         <select class="input2 input" id="location" name="location" required disabled>
-                        <option value="" disabled selected>Select a Model</option>
-                        <option value="">Selecciona una opción</option>
-                        <option value="2000-DJ">Top Rod</option>
-                        <option value="2000-1-DJ">Center Rod</option>
-                        <option value="7100-21">TMB</option>
-                        <option value="7100-22">NA</option>
+                            <option value="" disabled selected>Select a Model</option>
+                            <option value="">Selecciona una opción</option>
+                            <option value="2000-DJ">Top Rod</option>
+                            <option value="2000-1-DJ">Center Rod</option>
+                            <option value="7100-21">TMB</option>
+                            <option value="7100-22">NA</option>
                         </select>
                     </div>
-                   
-                    <img class="img_btn" id="myImage" src="images/img1.JPG" style="display: none" /> 
+
+                    <img class="img_btn" id="myImage" src="images/img1.JPG" style="display: none" />
                 </article>
 
                 <div class="text1">
@@ -368,51 +383,53 @@
                     <label class="label_mfg" id="slack_type1"></label>
                 </div>
 
-            </article> 
-            <!-- ..............................SLACK ADJUSTER END TRUCK............................. -->
+            </article>
+            <!-- ........................................................... -->
 
             <!-- ..............................SLACK ADJUSTER INTERMEDIATE TRUCKS............................. -->
 
             <article action="" class="slac_adjuster_it" id="slac_adjuster_it">
-                <div class="title"><h1>Slack Adjuster Intermediate Truck</h1></div>
-                
+                <div class="title">
+                    <h1>Slack Adjuster Intermediate Truck</h1>
+                </div>
+
                 <div class="text1">
                     <label for="modelIt">Model</label>
                     <select class="input" id="modelIt" onchange="mostrar2();" name="modelIt" required disabled>
-                    <option value="" disabled selected>Select a Model</option>
-                    <option value="">Selecciona una opción</option>
-                    <option value="2000-DJ">2000-DJ</option>
-                    <option value="2000-1-DJ">2000-1-DJ</option>
-                    <option value="7100-21">7100-21</option>
-                    <option value="7100-22">7100-22</option>
-                    <option value="7100-22R">7100-22R</option>
-                    <option value="7100-22RS">7100-22RS</option>
-                    <option value="7100-25">7100-25</option>
-                    <option value="7100-25R">7100-25R</option>
-                    <option value="7100-26">7100-26</option>
-                    <option value="7100-26R">7100-26R</option>
-                    <option value="7100-26RS">7100-26RS</option>
-                    <option value="7100-28">7100-28</option>
-                    <option value="7100-28R">7100-28R</option>
-                    <option value="7100-35">7100-35</option>
-                    <option value="7100-40">7100-40</option>
-                    <option value="IBEX">IBEX</option>
-                    <option value="9100-12">9100-12</option>
-                    <option value="9100-DJ">9100-DJ</option>
-                    <option value="2300-DJ">2300-DJ</option>
-                    <option value="2500-DJ">2500-DJ</option>
-                    <option value="10, 10S">10, 10S</option>
-                    <option value="C-1000-DJ">C-1000-DJ</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="5D">5D</option>
-                    <option value="85A">85A</option>
-                    <option value="KRD-482-E">KRD-482-E</option>
-                    <option value="KRD-482-R">KRD-482-R</option>
-                    <option value="790196">790196</option>
-                    <option value="790240">790240</option>
-                    <option value="DRV 2-101KDJ">DRV 2-101KDJ</option>
-                    <option value="DRV 2-1-USA-DJ">DRV 2-1-USA-DJ</option>
+                        <option value="" disabled selected>Select a Model</option>
+                        <option value="">Selecciona una opción</option>
+                        <option value="2000-DJ">2000-DJ</option>
+                        <option value="2000-1-DJ">2000-1-DJ</option>
+                        <option value="7100-21">7100-21</option>
+                        <option value="7100-22">7100-22</option>
+                        <option value="7100-22R">7100-22R</option>
+                        <option value="7100-22RS">7100-22RS</option>
+                        <option value="7100-25">7100-25</option>
+                        <option value="7100-25R">7100-25R</option>
+                        <option value="7100-26">7100-26</option>
+                        <option value="7100-26R">7100-26R</option>
+                        <option value="7100-26RS">7100-26RS</option>
+                        <option value="7100-28">7100-28</option>
+                        <option value="7100-28R">7100-28R</option>
+                        <option value="7100-35">7100-35</option>
+                        <option value="7100-40">7100-40</option>
+                        <option value="IBEX">IBEX</option>
+                        <option value="9100-12">9100-12</option>
+                        <option value="9100-DJ">9100-DJ</option>
+                        <option value="2300-DJ">2300-DJ</option>
+                        <option value="2500-DJ">2500-DJ</option>
+                        <option value="10, 10S">10, 10S</option>
+                        <option value="C-1000-DJ">C-1000-DJ</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="5D">5D</option>
+                        <option value="85A">85A</option>
+                        <option value="KRD-482-E">KRD-482-E</option>
+                        <option value="KRD-482-R">KRD-482-R</option>
+                        <option value="790196">790196</option>
+                        <option value="790240">790240</option>
+                        <option value="DRV 2-101KDJ">DRV 2-101KDJ</option>
+                        <option value="DRV 2-1-USA-DJ">DRV 2-1-USA-DJ</option>
                     </select>
                 </div>
                 <div class="text1">
@@ -427,57 +444,59 @@
                     <label for="slackGroup3">Mfg</label>
                     <label class="label_mfg" id="slackGroup3" disabled></label>
                 </div>
-                
+
                 <div class="text1">
                     <label for="slack_type2">Type</label>
                     <label class="label_mfg" id="slack_type2" disabled></label>
                 </div>
 
-            </article>  
-            <!-- ..............................SLACK AJUSTER INTERMEDIATE TRUCK............................. -->
+            </article>
+            <!-- ........................................................... -->
 
             <!-- ..............................Hand Brake............................. -->
 
             <article action="" class="hand_brake" id="hand_brake">
-                <div class="title"><h1>Hand Brake</h1></div>
-                
+                <div class="title">
+                    <h1>Hand Brake</h1>
+                </div>
+
                 <div class="text1">
                     <label for="">Model</label>
                     <select class="input" id="" onchange="" name="" required>
-                    <option value="" disabled selected>Select a Model</option>
-                    <option value="">Selecciona una opción</option>
-                    <option value="2000-DJ">2000-DJ</option>
-                    <option value="2000-1-DJ">2000-1-DJ</option>
-                    <option value="7100-21">7100-21</option>
-                    <option value="7100-22">7100-22</option>
-                    <option value="7100-22R">7100-22R</option>
-                    <option value="7100-22RS">7100-22RS</option>
-                    <option value="7100-25">7100-25</option>
-                    <option value="7100-25R">7100-25R</option>
-                    <option value="7100-26">7100-26</option>
-                    <option value="7100-26R">7100-26R</option>
-                    <option value="7100-26RS">7100-26RS</option>
-                    <option value="7100-28">7100-28</option>
-                    <option value="7100-28R">7100-28R</option>
-                    <option value="7100-35">7100-35</option>
-                    <option value="7100-40">7100-40</option>
-                    <option value="IBEX">IBEX</option>
-                    <option value="9100-12">9100-12</option>
-                    <option value="9100-DJ">9100-DJ</option>
-                    <option value="2300-DJ">2300-DJ</option>
-                    <option value="2500-DJ">2500-DJ</option>
-                    <option value="10, 10S">10, 10S</option>
-                    <option value="C-1000-DJ">C-1000-DJ</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="5D">5D</option>
-                    <option value="85A">85A</option>
-                    <option value="KRD-482-E">KRD-482-E</option>
-                    <option value="KRD-482-R">KRD-482-R</option>
-                    <option value="790196">790196</option>
-                    <option value="790240">790240</option>
-                    <option value="DRV 2-101KDJ">DRV 2-101KDJ</option>
-                    <option value="DRV 2-1-USA-DJ">DRV 2-1-USA-DJ</option>
+                        <option value="" disabled selected>Select a Model</option>
+                        <option value="">Selecciona una opción</option>
+                        <option value="2000-DJ">2000-DJ</option>
+                        <option value="2000-1-DJ">2000-1-DJ</option>
+                        <option value="7100-21">7100-21</option>
+                        <option value="7100-22">7100-22</option>
+                        <option value="7100-22R">7100-22R</option>
+                        <option value="7100-22RS">7100-22RS</option>
+                        <option value="7100-25">7100-25</option>
+                        <option value="7100-25R">7100-25R</option>
+                        <option value="7100-26">7100-26</option>
+                        <option value="7100-26R">7100-26R</option>
+                        <option value="7100-26RS">7100-26RS</option>
+                        <option value="7100-28">7100-28</option>
+                        <option value="7100-28R">7100-28R</option>
+                        <option value="7100-35">7100-35</option>
+                        <option value="7100-40">7100-40</option>
+                        <option value="IBEX">IBEX</option>
+                        <option value="9100-12">9100-12</option>
+                        <option value="9100-DJ">9100-DJ</option>
+                        <option value="2300-DJ">2300-DJ</option>
+                        <option value="2500-DJ">2500-DJ</option>
+                        <option value="10, 10S">10, 10S</option>
+                        <option value="C-1000-DJ">C-1000-DJ</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="5D">5D</option>
+                        <option value="85A">85A</option>
+                        <option value="KRD-482-E">KRD-482-E</option>
+                        <option value="KRD-482-R">KRD-482-R</option>
+                        <option value="790196">790196</option>
+                        <option value="790240">790240</option>
+                        <option value="DRV 2-101KDJ">DRV 2-101KDJ</option>
+                        <option value="DRV 2-1-USA-DJ">DRV 2-1-USA-DJ</option>
                     </select>
                 </div>
                 <div class="text1">
@@ -495,169 +514,171 @@
                 <div class="text1">
                     <label for="">Bellcrank/Shave</label>
                     <select class="input" id="" onchange="" name="" required>
-                    <option value="" disabled selected>Select a Model</option>
-                    <option value="">Selecciona una opción</option>
-                    <option value="2000-DJ">2000-DJ</option>
-                    <option value="2000-1-DJ">2000-1-DJ</option>
-                    <option value="7100-21">7100-21</option>
-                    <option value="7100-22">7100-22</option>
-                    <option value="7100-22R">7100-22R</option>
-                    <option value="7100-22RS">7100-22RS</option>
-                    <option value="7100-25">7100-25</option>
-                    <option value="7100-25R">7100-25R</option>
-                    <option value="7100-26">7100-26</option>
-                    <option value="7100-26R">7100-26R</option>
-                    <option value="7100-26RS">7100-26RS</option>
-                    <option value="7100-28">7100-28</option>
-                    <option value="7100-28R">7100-28R</option>
-                    <option value="7100-35">7100-35</option>
-                    <option value="7100-40">7100-40</option>
-                    <option value="IBEX">IBEX</option>
-                    <option value="9100-12">9100-12</option>
-                    <option value="9100-DJ">9100-DJ</option>
-                    <option value="2300-DJ">2300-DJ</option>
-                    <option value="2500-DJ">2500-DJ</option>
-                    <option value="10, 10S">10, 10S</option>
-                    <option value="C-1000-DJ">C-1000-DJ</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="5D">5D</option>
-                    <option value="85A">85A</option>
-                    <option value="KRD-482-E">KRD-482-E</option>
-                    <option value="KRD-482-R">KRD-482-R</option>
-                    <option value="790196">790196</option>
-                    <option value="790240">790240</option>
-                    <option value="DRV 2-101KDJ">DRV 2-101KDJ</option>
-                    <option value="DRV 2-1-USA-DJ">DRV 2-1-USA-DJ</option>
+                        <option value="" disabled selected>Select a Model</option>
+                        <option value="">Selecciona una opción</option>
+                        <option value="2000-DJ">2000-DJ</option>
+                        <option value="2000-1-DJ">2000-1-DJ</option>
+                        <option value="7100-21">7100-21</option>
+                        <option value="7100-22">7100-22</option>
+                        <option value="7100-22R">7100-22R</option>
+                        <option value="7100-22RS">7100-22RS</option>
+                        <option value="7100-25">7100-25</option>
+                        <option value="7100-25R">7100-25R</option>
+                        <option value="7100-26">7100-26</option>
+                        <option value="7100-26R">7100-26R</option>
+                        <option value="7100-26RS">7100-26RS</option>
+                        <option value="7100-28">7100-28</option>
+                        <option value="7100-28R">7100-28R</option>
+                        <option value="7100-35">7100-35</option>
+                        <option value="7100-40">7100-40</option>
+                        <option value="IBEX">IBEX</option>
+                        <option value="9100-12">9100-12</option>
+                        <option value="9100-DJ">9100-DJ</option>
+                        <option value="2300-DJ">2300-DJ</option>
+                        <option value="2500-DJ">2500-DJ</option>
+                        <option value="10, 10S">10, 10S</option>
+                        <option value="C-1000-DJ">C-1000-DJ</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="5D">5D</option>
+                        <option value="85A">85A</option>
+                        <option value="KRD-482-E">KRD-482-E</option>
+                        <option value="KRD-482-R">KRD-482-R</option>
+                        <option value="790196">790196</option>
+                        <option value="790240">790240</option>
+                        <option value="DRV 2-101KDJ">DRV 2-101KDJ</option>
+                        <option value="DRV 2-1-USA-DJ">DRV 2-1-USA-DJ</option>
                     </select>
                 </div>
 
                 <div class="text1">
                     <label for="">Mounted to car</label>
                     <select class="input" id="" onchange="" name="" required>
-                    <option value="" disabled selected>Select a Model</option>
-                    <option value="">Selecciona una opción</option>
-                    <option value="2000-DJ">2000-DJ</option>
-                    <option value="2000-1-DJ">2000-1-DJ</option>
-                    <option value="7100-21">7100-21</option>
-                    <option value="7100-22">7100-22</option>
-                    <option value="7100-22R">7100-22R</option>
-                    <option value="7100-22RS">7100-22RS</option>
-                    <option value="7100-25">7100-25</option>
-                    <option value="7100-25R">7100-25R</option>
-                    <option value="7100-26">7100-26</option>
-                    <option value="7100-26R">7100-26R</option>
-                    <option value="7100-26RS">7100-26RS</option>
-                    <option value="7100-28">7100-28</option>
-                    <option value="7100-28R">7100-28R</option>
-                    <option value="7100-35">7100-35</option>
-                    <option value="7100-40">7100-40</option>
-                    <option value="IBEX">IBEX</option>
-                    <option value="9100-12">9100-12</option>
-                    <option value="9100-DJ">9100-DJ</option>
-                    <option value="2300-DJ">2300-DJ</option>
-                    <option value="2500-DJ">2500-DJ</option>
-                    <option value="10, 10S">10, 10S</option>
-                    <option value="C-1000-DJ">C-1000-DJ</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="5D">5D</option>
-                    <option value="85A">85A</option>
-                    <option value="KRD-482-E">KRD-482-E</option>
-                    <option value="KRD-482-R">KRD-482-R</option>
-                    <option value="790196">790196</option>
-                    <option value="790240">790240</option>
-                    <option value="DRV 2-101KDJ">DRV 2-101KDJ</option>
-                    <option value="DRV 2-1-USA-DJ">DRV 2-1-USA-DJ</option>
+                        <option value="" disabled selected>Select a Model</option>
+                        <option value="">Selecciona una opción</option>
+                        <option value="2000-DJ">2000-DJ</option>
+                        <option value="2000-1-DJ">2000-1-DJ</option>
+                        <option value="7100-21">7100-21</option>
+                        <option value="7100-22">7100-22</option>
+                        <option value="7100-22R">7100-22R</option>
+                        <option value="7100-22RS">7100-22RS</option>
+                        <option value="7100-25">7100-25</option>
+                        <option value="7100-25R">7100-25R</option>
+                        <option value="7100-26">7100-26</option>
+                        <option value="7100-26R">7100-26R</option>
+                        <option value="7100-26RS">7100-26RS</option>
+                        <option value="7100-28">7100-28</option>
+                        <option value="7100-28R">7100-28R</option>
+                        <option value="7100-35">7100-35</option>
+                        <option value="7100-40">7100-40</option>
+                        <option value="IBEX">IBEX</option>
+                        <option value="9100-12">9100-12</option>
+                        <option value="9100-DJ">9100-DJ</option>
+                        <option value="2300-DJ">2300-DJ</option>
+                        <option value="2500-DJ">2500-DJ</option>
+                        <option value="10, 10S">10, 10S</option>
+                        <option value="C-1000-DJ">C-1000-DJ</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="5D">5D</option>
+                        <option value="85A">85A</option>
+                        <option value="KRD-482-E">KRD-482-E</option>
+                        <option value="KRD-482-R">KRD-482-R</option>
+                        <option value="790196">790196</option>
+                        <option value="790240">790240</option>
+                        <option value="DRV 2-101KDJ">DRV 2-101KDJ</option>
+                        <option value="DRV 2-1-USA-DJ">DRV 2-1-USA-DJ</option>
                     </select>
                 </div>
 
                 <div class="text1">
                     <label for="">Number of HB</label>
                     <select class="input" id="" onchange="" name="" required>
-                    <option value="" disabled selected>Select a Model</option>
-                    <option value="">Selecciona una opción</option>
-                    <option value="2000-DJ">2000-DJ</option>
-                    <option value="2000-1-DJ">2000-1-DJ</option>
-                    <option value="7100-21">7100-21</option>
-                    <option value="7100-22">7100-22</option>
-                    <option value="7100-22R">7100-22R</option>
-                    <option value="7100-22RS">7100-22RS</option>
-                    <option value="7100-25">7100-25</option>
-                    <option value="7100-25R">7100-25R</option>
-                    <option value="7100-26">7100-26</option>
-                    <option value="7100-26R">7100-26R</option>
-                    <option value="7100-26RS">7100-26RS</option>
-                    <option value="7100-28">7100-28</option>
-                    <option value="7100-28R">7100-28R</option>
-                    <option value="7100-35">7100-35</option>
-                    <option value="7100-40">7100-40</option>
-                    <option value="IBEX">IBEX</option>
-                    <option value="9100-12">9100-12</option>
-                    <option value="9100-DJ">9100-DJ</option>
-                    <option value="2300-DJ">2300-DJ</option>
-                    <option value="2500-DJ">2500-DJ</option>
-                    <option value="10, 10S">10, 10S</option>
-                    <option value="C-1000-DJ">C-1000-DJ</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="5D">5D</option>
-                    <option value="85A">85A</option>
-                    <option value="KRD-482-E">KRD-482-E</option>
-                    <option value="KRD-482-R">KRD-482-R</option>
-                    <option value="790196">790196</option>
-                    <option value="790240">790240</option>
-                    <option value="DRV 2-101KDJ">DRV 2-101KDJ</option>
-                    <option value="DRV 2-1-USA-DJ">DRV 2-1-USA-DJ</option>
+                        <option value="" disabled selected>Select a Model</option>
+                        <option value="">Selecciona una opción</option>
+                        <option value="2000-DJ">2000-DJ</option>
+                        <option value="2000-1-DJ">2000-1-DJ</option>
+                        <option value="7100-21">7100-21</option>
+                        <option value="7100-22">7100-22</option>
+                        <option value="7100-22R">7100-22R</option>
+                        <option value="7100-22RS">7100-22RS</option>
+                        <option value="7100-25">7100-25</option>
+                        <option value="7100-25R">7100-25R</option>
+                        <option value="7100-26">7100-26</option>
+                        <option value="7100-26R">7100-26R</option>
+                        <option value="7100-26RS">7100-26RS</option>
+                        <option value="7100-28">7100-28</option>
+                        <option value="7100-28R">7100-28R</option>
+                        <option value="7100-35">7100-35</option>
+                        <option value="7100-40">7100-40</option>
+                        <option value="IBEX">IBEX</option>
+                        <option value="9100-12">9100-12</option>
+                        <option value="9100-DJ">9100-DJ</option>
+                        <option value="2300-DJ">2300-DJ</option>
+                        <option value="2500-DJ">2500-DJ</option>
+                        <option value="10, 10S">10, 10S</option>
+                        <option value="C-1000-DJ">C-1000-DJ</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="5D">5D</option>
+                        <option value="85A">85A</option>
+                        <option value="KRD-482-E">KRD-482-E</option>
+                        <option value="KRD-482-R">KRD-482-R</option>
+                        <option value="790196">790196</option>
+                        <option value="790240">790240</option>
+                        <option value="DRV 2-101KDJ">DRV 2-101KDJ</option>
+                        <option value="DRV 2-1-USA-DJ">DRV 2-1-USA-DJ</option>
                     </select>
                 </div>
-               
+
             </article>
-                
-            <!-- ..............................Hand Brake............................. -->
+
+            <!-- ...................................................................................................................... -->
 
             <!-- ..............................Empty / Load End Trucks & Empty / Load Intermediate Trucks.............................. -->
 
             <article action="" class="hand_brake" id="hand_brake">
-                <div class="title"><h1>Empty / Load End Trucks</h1></div>
-                
+                <div class="title">
+                    <h1>Empty / Load End Trucks</h1>
+                </div>
+
                 <div class="text1">
                     <label for="">Model</label>
                     <select class="input" id="" onchange="" name="" required>
-                    <option value="" disabled selected>Select a Model</option>
-                    <option value="">Selecciona una opción</option>
-                    <option value="2000-DJ">2000-DJ</option>
-                    <option value="2000-1-DJ">2000-1-DJ</option>
-                    <option value="7100-21">7100-21</option>
-                    <option value="7100-22">7100-22</option>
-                    <option value="7100-22R">7100-22R</option>
-                    <option value="7100-22RS">7100-22RS</option>
-                    <option value="7100-25">7100-25</option>
-                    <option value="7100-25R">7100-25R</option>
-                    <option value="7100-26">7100-26</option>
-                    <option value="7100-26R">7100-26R</option>
-                    <option value="7100-26RS">7100-26RS</option>
-                    <option value="7100-28">7100-28</option>
-                    <option value="7100-28R">7100-28R</option>
-                    <option value="7100-35">7100-35</option>
-                    <option value="7100-40">7100-40</option>
-                    <option value="IBEX">IBEX</option>
-                    <option value="9100-12">9100-12</option>
-                    <option value="9100-DJ">9100-DJ</option>
-                    <option value="2300-DJ">2300-DJ</option>
-                    <option value="2500-DJ">2500-DJ</option>
-                    <option value="10, 10S">10, 10S</option>
-                    <option value="C-1000-DJ">C-1000-DJ</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="5D">5D</option>
-                    <option value="85A">85A</option>
-                    <option value="KRD-482-E">KRD-482-E</option>
-                    <option value="KRD-482-R">KRD-482-R</option>
-                    <option value="790196">790196</option>
-                    <option value="790240">790240</option>
-                    <option value="DRV 2-101KDJ">DRV 2-101KDJ</option>
-                    <option value="DRV 2-1-USA-DJ">DRV 2-1-USA-DJ</option>
+                        <option value="" disabled selected>Select a Model</option>
+                        <option value="">Selecciona una opción</option>
+                        <option value="2000-DJ">2000-DJ</option>
+                        <option value="2000-1-DJ">2000-1-DJ</option>
+                        <option value="7100-21">7100-21</option>
+                        <option value="7100-22">7100-22</option>
+                        <option value="7100-22R">7100-22R</option>
+                        <option value="7100-22RS">7100-22RS</option>
+                        <option value="7100-25">7100-25</option>
+                        <option value="7100-25R">7100-25R</option>
+                        <option value="7100-26">7100-26</option>
+                        <option value="7100-26R">7100-26R</option>
+                        <option value="7100-26RS">7100-26RS</option>
+                        <option value="7100-28">7100-28</option>
+                        <option value="7100-28R">7100-28R</option>
+                        <option value="7100-35">7100-35</option>
+                        <option value="7100-40">7100-40</option>
+                        <option value="IBEX">IBEX</option>
+                        <option value="9100-12">9100-12</option>
+                        <option value="9100-DJ">9100-DJ</option>
+                        <option value="2300-DJ">2300-DJ</option>
+                        <option value="2500-DJ">2500-DJ</option>
+                        <option value="10, 10S">10, 10S</option>
+                        <option value="C-1000-DJ">C-1000-DJ</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="5D">5D</option>
+                        <option value="85A">85A</option>
+                        <option value="KRD-482-E">KRD-482-E</option>
+                        <option value="KRD-482-R">KRD-482-R</option>
+                        <option value="790196">790196</option>
+                        <option value="790240">790240</option>
+                        <option value="DRV 2-101KDJ">DRV 2-101KDJ</option>
+                        <option value="DRV 2-1-USA-DJ">DRV 2-1-USA-DJ</option>
                     </select>
                 </div>
                 <div class="text1">
@@ -676,47 +697,49 @@
                     <label for="">Type</label>
                     <label class="label_mfg" id=""></label>
                 </div>
-                
 
-                <div class="title2"><h1>Empty / Load Intermediate Trucks</h1></div>
-    
+
+                <div class="title2">
+                    <h1>Empty / Load Intermediate Trucks</h1>
+                </div>
+
                 <div class="text1">
                     <label for="">Model</label>
                     <select class="input" id="" onchange="" name="" required>
-                    <option value="" disabled selected>Select a Model</option>
-                    <option value="">Selecciona una opción</option>
-                    <option value="2000-DJ">2000-DJ</option>
-                    <option value="2000-1-DJ">2000-1-DJ</option>
-                    <option value="7100-21">7100-21</option>
-                    <option value="7100-22">7100-22</option>
-                    <option value="7100-22R">7100-22R</option>
-                    <option value="7100-22RS">7100-22RS</option>
-                    <option value="7100-25">7100-25</option>
-                    <option value="7100-25R">7100-25R</option>
-                    <option value="7100-26">7100-26</option>
-                    <option value="7100-26R">7100-26R</option>
-                    <option value="7100-26RS">7100-26RS</option>
-                    <option value="7100-28">7100-28</option>
-                    <option value="7100-28R">7100-28R</option>
-                    <option value="7100-35">7100-35</option>
-                    <option value="7100-40">7100-40</option>
-                    <option value="IBEX">IBEX</option>
-                    <option value="9100-12">9100-12</option>
-                    <option value="9100-DJ">9100-DJ</option>
-                    <option value="2300-DJ">2300-DJ</option>
-                    <option value="2500-DJ">2500-DJ</option>
-                    <option value="10, 10S">10, 10S</option>
-                    <option value="C-1000-DJ">C-1000-DJ</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="5D">5D</option>
-                    <option value="85A">85A</option>
-                    <option value="KRD-482-E">KRD-482-E</option>
-                    <option value="KRD-482-R">KRD-482-R</option>
-                    <option value="790196">790196</option>
-                    <option value="790240">790240</option>
-                    <option value="DRV 2-101KDJ">DRV 2-101KDJ</option>
-                    <option value="DRV 2-1-USA-DJ">DRV 2-1-USA-DJ</option>
+                        <option value="" disabled selected>Select a Model</option>
+                        <option value="">Selecciona una opción</option>
+                        <option value="2000-DJ">2000-DJ</option>
+                        <option value="2000-1-DJ">2000-1-DJ</option>
+                        <option value="7100-21">7100-21</option>
+                        <option value="7100-22">7100-22</option>
+                        <option value="7100-22R">7100-22R</option>
+                        <option value="7100-22RS">7100-22RS</option>
+                        <option value="7100-25">7100-25</option>
+                        <option value="7100-25R">7100-25R</option>
+                        <option value="7100-26">7100-26</option>
+                        <option value="7100-26R">7100-26R</option>
+                        <option value="7100-26RS">7100-26RS</option>
+                        <option value="7100-28">7100-28</option>
+                        <option value="7100-28R">7100-28R</option>
+                        <option value="7100-35">7100-35</option>
+                        <option value="7100-40">7100-40</option>
+                        <option value="IBEX">IBEX</option>
+                        <option value="9100-12">9100-12</option>
+                        <option value="9100-DJ">9100-DJ</option>
+                        <option value="2300-DJ">2300-DJ</option>
+                        <option value="2500-DJ">2500-DJ</option>
+                        <option value="10, 10S">10, 10S</option>
+                        <option value="C-1000-DJ">C-1000-DJ</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="5D">5D</option>
+                        <option value="85A">85A</option>
+                        <option value="KRD-482-E">KRD-482-E</option>
+                        <option value="KRD-482-R">KRD-482-R</option>
+                        <option value="790196">790196</option>
+                        <option value="790240">790240</option>
+                        <option value="DRV 2-101KDJ">DRV 2-101KDJ</option>
+                        <option value="DRV 2-1-USA-DJ">DRV 2-1-USA-DJ</option>
                     </select>
                 </div>
                 <div class="text1">
@@ -736,29 +759,268 @@
                     <label class="label_mfg" id=""></label>
                 </div>
             </article>
-                
-            <!-- ..............................Empty / Load End Trucks & Empty / Load Intermediate Trucks.............................. -->
 
-          
+            <!-- ................................................................................................................ -->
 
-        <div class="btn-enviar">
+            <!-- ..............................TMB................................................................................ -->
 
-                <div class="btn-enviar">
-                    <button type="submit" class="formulario__btn">Enviar</button>
+            <article action="" class="hand_brake" id="hand_brake">
+                <div class="title">
+                    <h1>TMB</h1>
+                </div>
+                <div class="title2">
+                    <h1>End Trucks (HB)</h1>
                 </div>
 
+                <div class="text1">
+                    <label for="">Model</label>
+                    <select class="input" id="" onchange="" name="" required>
+                        <option value="" disabled selected>Select a Model</option>
+                        <option value="">Selecciona una opción</option>
+                    </select>
+                </div>
+
+                <div class="text1">
+                    <label for="">Mfg</label>
+                    <label class="label_mfg labeld" id=""></label>
+                </div>
+
+                <div class="title2">
+                    <h1>End Trucks (Non-HB) (HB)</h1>
+                </div>
+
+                <div class="text1">
+                    <label for="">Model</label>
+                    <select class="input" id="" onchange="" name="" required>
+                        <option value="" disabled selected>Select a Model</option>
+
+                    </select>
+                </div>
+                <div class="text1">
+                    <label for="">Mfg</label>
+                    <label class="label_mfg labeld" id=""></label>
+                </div>
+
+                <div class="title2">
+                    <h1>Intermediate Truck (HB)</h1>
+                </div>
+
+                <div class="text1">
+                    <label for="">Model</label>
+                    <select class="input" id="" onchange="" name="" required>
+                        <option value="" disabled selected>Select a Model</option>
+                        <option value="">Selecciona una opción</option>
+
+                    </select>
+                </div>
+                <div class="text1">
+                    <label for="">Mfg</label>
+                    <label class="label_mfg labeld" id=""></label>
+                </div>
+
+                <div class="title2">
+                    <h1>Intermediate Truck (Non-HB)</h1>
+                </div>
+
+                <div class="text1">
+                    <label for="">Model</label>
+                    <select class="input" id="" onchange="" name="" required>
+                        <option value="" disabled selected>Select a Model</option>
+
+                    </select>
+                </div>
+                <div class="text1">
+                    <label for="">Mfg</label>
+                    <label class="label_mfg labeld" id=""></label>
+                </div>
+
+
+            </article>
+
+            <!-- ................................................................................................................ -->
+
+            <!-- ..............................CONTROL VALVE................................................................................ -->
+
+            <article action="" class="hand_brake" id="hand_brake">
+                <div class="title">
+                    <h1>Contro Valve</h1>
+                </div>
+
+
+                <div class="text1">
+                    <label for="">Type</label>
+                    <select class="input" id="" onchange="" name="" required>
+                        <option value="" disabled selected>Select a Model</option>
+                        <option value="">Selecciona una opción</option>
+
+                    </select>
+                </div>
+
+                <div class="text1">
+                    <label for="">Mfg</label>
+                    <label class="label_mfg labeld" id=""></label>
+                </div>
+
+
+
+            </article>
+
+            <!-- ................................................................................................................ -->
+
+            <!-- ..............................Auxiliary Vent Device................................................................................ -->
+
+            <article action="" class="hand_brake" id="hand_brake">
+                <div class="title">
+                    <h1>Auxiliary Vent Device</h1>
+                </div>
+                <div class="text1">
+                    <label for=""></label>
+                    <select class="input" id="" onchange="" name="" required>
+                        <option value="" disabled selected>Select a Model</option>
+                    </select>
+                </div>
+                <div class="text1">
+                    <label for="">Mfg</label>
+                    <label class="label_mfg labeld" id=""></label>
+                </div>
+            </article>
+
+            <!-- ................................................................................................................ -->
+
+
+            <!-- ..............................Pipe Bracket................................................................................ -->
+
+            <article action="" class="hand_brake" id="hand_brake">
+                <div class="title">
+                    <h1>Pipe Bracket</h1>
+                </div>
+                <div class="text1">
+                    <label for="">Desing</label>
+                    <select class="input" id="" onchange="" name="" required>
+                        <option value="" disabled selected>Select a Model</option>
+                    </select>
+                </div>
+            </article>
+
+            <!-- ................................................................................................................ -->
+
+            <!-- ..............................4 Port Adapter Plate (between sevice and pipe brkt)................................................................................ -->
+
+            <article action="" class="hand_brake" id="hand_brake">
+                <div class="title">
+                    <h1>4 Port Adapter Plate (between service and pipe brkt)</h1>
+                </div>
+                <div class="text1">
+                    <label for="">Position</label>
+                    <select class="input" id="" onchange="" name="" required>
+                        <option value="" disabled selected>Select a Model</option>
+                    </select>
+                </div>
+            </article>
+
+            <!-- ................................................................................................................ -->
+
+            <!-- ..............................Brake Cylinder................................................................................ -->
+
+            <article action="" class="hand_brake" id="hand_brake">
+                <div class="title">
+                    <h1>Brake Cylinder</h1>
+                </div>
+                <div class="text1">
+                    <label for="">Size</label>
+                    <select class="input" id="" onchange="" name="" required>
+                        <option value="" disabled selected>Select a Model</option>
+                    </select>
+                </div>
+                <div class="text1">
+                    <label for="">Mfg</label>
+                    <label class="label_mfg labeld" id=""></label>
+                </div>
+            </article>
+
+            <!-- ................................................................................................................ -->
+
+             <!-- ..............................Brake Beams................................................................................ -->
+
+             <article action="" class="hand_brake" id="hand_brake">
+                <div class="title">
+                    <h1>Brake Beams</h1>
+                </div>
+                <div class="title2">
+                    <h1>End Trucks</h1>
+                </div>
+
+                <div class="text1">
+                    <label for="">Size</label>
+                    <select class="input" id="" onchange="" name="" required>
+                        <option value="" disabled selected>Select a Model</option>
+                        <option value="">Selecciona una opción</option>
+                    </select>
+                </div>
+
+                <div class="text1">
+                    <label for="">Mfg</label>
+                    <label class="label_mfg labeld" id=""></label>
+                </div>
+
+                <div class="title2">
+                    <h1>Intermediate Trucks</h1>
+                </div>
+
+                <div class="text1">
+                    <label for="">Size</label>
+                    <select class="input" id="" onchange="" name="" required>
+                        <option value="" disabled selected>Select a Model</option>
+                    </select>
+                </div>
+                <div class="text1">
+                    <label for="">Mfg</label>
+                    <label class="label_mfg labeld" id=""></label>
+                </div>
+
+            </article>
+
+            <!-- ................................................................................................................ -->
+
+              <!-- ..............................Brake Shoes................................................................................ -->
+
+              <article action="" class="hand_brake" id="hand_brake">
+                <div class="title">
+                    <h1>Brake Shoes</h1>
+                </div>
+                <div class="text1">
+                    <label for="">Size</label>
+                    <select class="input" id="" onchange="" name="" required>
+                        <option value="" disabled selected>Select a Model</option>
+                    </select>
+                </div>
+                <div class="text1">
+                    <label for="">Mfg</label>
+                    <label class="label_mfg labeld" id=""></label>
+                </div>
+            </article>
+
+            <!-- ................................................................................................................ -->
+
+
+
+            <div class="btn-enviar">
+                <div class="btn-enviar">
+                <button type="submit" class="formulario__btn">Enviar</button>
+                </div>
+            </div>
         </form>
-        
-       
-           
+
+
+
     </main>
 
-    
+
     <footer class="footer">
         <a href="../menu.html">
             <img class="footer_icon" src="../assets/arrow_back.svg">
         </a>
-        
+
         <img class="footer__img" src="../assets/AMSTED_LOGO_WHITE.png" alt="">
 
         <a href="../amsted_rail/amsted_rail.html">
@@ -771,10 +1033,9 @@
     <script src="vlook.js"></script>
     <script src="block.js"></script>
     <script src="funciones.js"></script>
-   
-    
-  
+
+
+
 </body>
 
-</html>
 </html>
