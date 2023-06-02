@@ -140,3 +140,9 @@ $(document).ready(function() {
     var targetNode = $('#number_of_units2')[0];
     observer.observe(targetNode, { childList: true });
 });
+
+//----------------------------Codigo para tomar fotografias-------------------------------------------------------
+
+document.getElementById('btnTomarFoto').addEventListener('click', function() {
+    document.getElementById('foto').click();
+  });

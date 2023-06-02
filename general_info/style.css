@@ -315,3 +315,55 @@ input:focus, input:valid {
 .input.disabled { /* Añadido .disabled para aplicarlo a los inputs deshabilitados */
     background-color: black;
 }
+
+
+
+.comments{
+    width: 350px;
+    height: 100%;
+    margin-top: 50px;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 35px 0px;
+    border-radius: 15px;
+    box-shadow: 0 0 13px -3px #282828;
+}
+
+
+
+
+.commentext{
+    margin-top: 5px;
+    width: 300px;
+    height: 150px;
+    font-weight: 400;
+    font-style: italic;
+   
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+}
+
+  
+textarea:focus, tesxtarea:valid {
+    background-color: transparent;
+  }
+
+  #btnTomarFoto {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #btnTomarFoto:hover {
+    background-color: #45a049;
+  }
