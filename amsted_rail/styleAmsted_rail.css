@@ -165,9 +165,17 @@ body{
 
 
 .title{
+    width: 200px;
+    height: 50px;
     text-align: center;
     margin: -25px auto;
     margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 13px -3px #282828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 
 .title2{
