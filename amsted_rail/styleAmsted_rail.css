@@ -165,24 +165,38 @@ body{
 
 
 .title{
-    width: 200px;
+    width: 240px;
     height: 50px;
     text-align: center;
-    margin: -25px auto;
+    margin: -10px auto;
     margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 13px -3px #282828;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background: rgba(65, 54, 217, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(65, 54, 217, 0.3);
    
+    
 }
 
 .title2{
+    width: 350px;
+    margin: 0 auto;
     margin-top: 20px;
     text-align: center;
-    
     margin-bottom: 20px;
+    /* From https://css.glass */
+    background: rgba(97, 238, 98, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(97, 238, 98, 0.3);
 }
 
 
@@ -197,6 +211,7 @@ body{
     font-style: italic;
     width: 300px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .input{
@@ -376,3 +391,97 @@ textarea:focus, tesxtarea:valid {
   #btnTomarFoto:hover {
     background-color: #45a049;
   }
+
+  .input3{
+    margin-top: 5px;
+    width: 100px;
+    height: 35px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
+
+.text3{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 20px;
+}
+
+.input4{
+    margin-top: 5px;
+    width: 76px;
+    height: 35px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
+
+.text4{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.input5{
+    margin-top: 5px;
+    width: 80px;
+    height: 35px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 8px;
+    text-align: center;
+    padding: 5px;
+    color: black;
+}
+
+.text5{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.input6{
+    margin-top: 5px;
+    width: 170px;
+    height: 35px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 11px;
+    text-align: center;
+    padding: 5px;
+    color: black;
+}
+
+.text6{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
